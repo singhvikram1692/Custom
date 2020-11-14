@@ -112,21 +112,4 @@ public class MyArrayList<T>{
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        MyArrayList myArrayList = new MyArrayList(4);
-        myArrayList.add(1);
-        myArrayList.add(10);
-        myArrayList.add(100);
-        myArrayList.add(1000);
-        myArrayList.add(10000);
-        myArrayList.add(100000);
-        myArrayList.add(0,2);
-        myArrayList.add(0,1);
-        myArrayList.set(2, 3);
-        myArrayList.remove(7);
-        myArrayList.remove(6);
-        myArrayList.remove(5);
-        System.out.println(myArrayList);
-        System.out.println(myArrayList.contains(30));
-    }
 }

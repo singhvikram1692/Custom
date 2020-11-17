@@ -17,7 +17,7 @@ public class DuplicateZeros {
 
     Input: [1,2,3]
     Output: null
-    Explanation: After calling your function, the input array is modified to: [1,2,3]
+    Explanation: After calling your function, the input array is modified to: [1,2,3].
 */
 
     public void duplicateZeros(int[] arr) {
